@@ -1,6 +1,7 @@
 # hopetail
 
 A new Flutter project.
+'희망꼬리'의 이름을 프로젝트화 하였어요.
 
 ## Getting Started
 
