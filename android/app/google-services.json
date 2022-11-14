@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "882663493455",
+    "project_id": "hopetail-7c1db",
+    "storage_bucket": "hopetail-7c1db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882663493455:android:71d6984fe83be8844d7f3a",
+        "android_client_info": {
+          "package_name": "com.example.hopetail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882663493455-alipsn5injv1epmuj32koe6epic7hq5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ucdu1RtwiiolJalcWuvVjgG7UnK6wT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882663493455-alipsn5injv1epmuj32koe6epic7hq5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
