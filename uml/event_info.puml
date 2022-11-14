@@ -1,0 +1,24 @@
+@startuml Hopetail
+!define primary_key(x) <b><color:#b8861b><&key></color> x</b>
+!define foreign_key(x) <color:#aaaaaa><&key></color> x
+!define column(x) <color:#efefef><&media-record></color> x
+!define table(x) entity x << (T, white) >>
+
+table(event) {
+  primary_key( id ): UID 
+  column(title): CHARACTER VARYING 
+  column(description): CHARACTER VARYING
+  column(image): IMAGE
+  column(event_Dstart): YYYYMMDD
+  column(event_Dend): YYYYMMDD
+  column(event_Tstart ): HHMM
+  column(event_Tend): HHMM
+  column(apply_Ddeadline): YYYYMMDD
+  column(apply_Tdeadline): HHMM
+  column(place): CHARACTER VARYING
+  column(target): CHARACTER VARYING
+  column(num_Join): INTEGER
+
+}
+
+@enduml
